@@ -30,3 +30,6 @@ Route::get('/edit/{id}', 'PagesController@edit')->name('users.edit');
 Route::put('/edit/{id}', 'PagesController@update')->name('users.update');
 
 Route::delete('/delete/{id}', 'PagesController@delete')->name('users.delete');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

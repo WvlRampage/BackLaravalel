@@ -1,6 +1,7 @@
-@extends('template')
+@extends('layouts.app')
 
-@section('section')
+@section('content')
+
 <div class='container'>
  <h1>Comments</h1>
 </div>

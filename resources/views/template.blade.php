@@ -44,6 +44,10 @@
                                 <li class="nav-item">
                                     <a class="nav-link white-color" href="{{ route('users') }}">Users</a>
                                 </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link white-color" href="{{ route('home') }}">home</a>
+                                </li>
                                 
                             </ul>
                             <form class="form-inline my-2 my-lg-0">

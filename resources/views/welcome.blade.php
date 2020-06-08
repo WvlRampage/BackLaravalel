@@ -1,6 +1,6 @@
-@extends('template')
+@extends('layouts.app')
 
-@section('section')
+@section('content')
 
  <h1>Bienvenido</h1>
 
