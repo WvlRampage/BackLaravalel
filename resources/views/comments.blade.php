@@ -1,8 +1,8 @@
 @extends('template')
 
 @section('section')
-
- <h1>Bienvenido</h1>
-
+<div class='container'>
+ <h1>Comments</h1>
+</div>
 
 @endsection
