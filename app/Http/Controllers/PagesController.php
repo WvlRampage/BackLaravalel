@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App;
 
 class PagesController extends Controller
 {
@@ -19,7 +20,8 @@ class PagesController extends Controller
     }
 
     public function users(){
-        return view('users');
+        $users = App\User::all();
+        return view('users', compact('users'));
     }
 
 
