@@ -20,3 +20,13 @@ Route::get('posts', 'PagesController@posts')->name('posts');
 Route::get('comments', 'PagesController@comments')->name('comments');
 
 Route::get('users', 'PagesController@users')->name('users');
+
+Route::get('users/{id}', 'PagesController@detail')->name('users.detail');
+
+Route::post('create', 'PagesController@create')->name('users.create');
+
+Route::get('/edit/{id}', 'PagesController@edit')->name('users.edit');
+
+Route::put('/edit/{id}', 'PagesController@update')->name('users.update');
+
+Route::delete('/delete/{id}', 'PagesController@delete')->name('users.delete');

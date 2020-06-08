@@ -56,7 +56,7 @@
                 </div>
             </nav>
         </header>    
-    <div class='container'>
+    <div class='container pt-5'>
         @yield('section')    
     </div>
     
